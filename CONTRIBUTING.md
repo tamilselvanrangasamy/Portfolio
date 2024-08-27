@@ -2,7 +2,7 @@
 
 [🔗Live Demo🔗]([https://tamilselvanrangasamy.netlify.app/])
 
-![Protfolio Website](https://github.com/tamilselvanrangasamy/Portfolio/blob/main/public/Portfolio.png)
+
 
 ## Feel free to contribute to this repo
 **👉 Open a issue if you want to do any contribution, will assign you that**
