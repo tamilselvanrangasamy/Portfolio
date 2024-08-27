@@ -1,8 +1,8 @@
 # JS Portfolio Website
 
-[🔗Live Demo🔗](https://sajib.vercel.app/)
+[🔗Live Demo🔗](https://tamilselvanrangasamy.netlify.app/)
 
-![Protfolio Website](https://i.ibb.co/N7xKjdQ/Screenshot-17.png)
+![Protfolio Website]([https://i.ibb.co/N7xKjdQ/Screenshot-17.png](https://github.com/tamilselvanrangasamy/Portfolio/blob/main/public/Portfolio.png))
 
 <div align="center">
 
