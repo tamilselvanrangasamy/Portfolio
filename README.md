@@ -2,7 +2,7 @@
 
 [🔗Live Demo🔗](https://tamilselvanrangasamy.netlify.app/)
 
-![Protfolio Website]([https://i.ibb.co/N7xKjdQ/Screenshot-17.png](https://github.com/tamilselvanrangasamy/Portfolio/blob/main/public/Portfolio.png))
+![Protfolio Website]((https://github.com/tamilselvanrangasamy/Portfolio/blob/main/public/Portfolio.png))
 
 <div align="center">
 
