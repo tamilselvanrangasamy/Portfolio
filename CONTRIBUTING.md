@@ -1,8 +1,6 @@
 #  Hacktoberfest 2023
 
-[🔗Live Demo🔗]([https://tamilselvanrangasamy.netlify.app/])
-
-
+[🔗Live Demo🔗](https://tamilselvanrangasamy.netlify.app/)
 
 ## Feel free to contribute to this repo
 **👉 Open a issue if you want to do any contribution, will assign you that**
