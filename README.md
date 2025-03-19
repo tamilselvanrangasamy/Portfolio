@@ -4,7 +4,7 @@ Welcome to the personal portfolio of **Tamilselvan Rangasamy**, a passionate web
 
 ## Live Demo
 
-Check out the live portfolio here: [tamilselvanrangasamy.netlify.app](https://tamilselvanrangasamy.netlify.app/)
+Check out the live portfolio here: [tamilselvanrangasamy](https://tamilselvanrangasamy.netlify.app/)
 
 ## Features
 
