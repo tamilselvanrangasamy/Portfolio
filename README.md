@@ -32,3 +32,4 @@ Ensure you have **Node.js** and **npm** installed. You can check if you have the
 ```bash
 node -v
 npm -v
+npm start
