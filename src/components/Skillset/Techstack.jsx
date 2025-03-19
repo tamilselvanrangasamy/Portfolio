@@ -7,21 +7,21 @@ import {
   DiCss3,
   DiMysql,
   DiHtml5,
-  DiBootstrap,
 } from "react-icons/di";
 import {
   SiMaterialui,
   SiRedux,
   SiMongodb,
   SiTypescript,
-  SiJest, 
+  SiJest,
   SiTailwindcss,
+  SiNextdotjs,
 } from "react-icons/si";
 
 const Techstack = () => {
   return (
     <>
-      <Row style={{paddingBottom: "50px" }}>
+      <Row style={{ paddingBottom: "50px" }}>
         <Col xs={4} md={2} className="tech-icons">
           <DiHtml5 />
           <h4>HTML</h4>
@@ -39,28 +39,16 @@ const Techstack = () => {
           <h4>Typescript</h4>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-          <DiMysql />
-          <h4>MySQL</h4>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <DiNodejs />
-          <h4>Node JS</h4>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
           <DiReact />
           <h4>React</h4>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-          <SiMongodb />
-          <h4>MongoDB</h4>
+          <SiNextdotjs />
+          <h4>Next</h4>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <SiMaterialui />
           <h4>Material UI</h4>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <DiBootstrap />
-          <h4>Bootstrap</h4>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <SiRedux />
@@ -69,6 +57,18 @@ const Techstack = () => {
         <Col xs={4} md={2} className="tech-icons">
           <SiTailwindcss />
           <h4>Tailwind CSS</h4>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiMysql />
+          <h4>MySQL</h4>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiNodejs />
+          <h4>Node JS</h4>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiMongodb />
+          <h4>MongoDB</h4>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <SiJest />

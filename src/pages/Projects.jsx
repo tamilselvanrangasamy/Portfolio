@@ -6,7 +6,7 @@ import college from "../assets/projects/college.png";
 import music from "../assets/projects/Music.png";
 import hosting from "../assets/projects/Hosting.png";
 import ecommerce from "../assets/projects/ecommerce.png";
-
+import agreed from "../assets/projects/agreedpro.png";
 const Projects = () => {
   return (
     <Container fluid className="project-section">
@@ -19,6 +19,15 @@ const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={agreed}
+              isBlog={false}
+              title="AgreedPro"
+              description="AgreedPro is an AI-powered contract management platform designed to streamline the creation, negotiation, and management of contracts for small and medium-sized businesses. It offers features such as AI-assisted document generation, efficient redlining, electronic signatures, automated reminders, quick search capabilities, centralized storage, and robust data security. The platform aims to simplify complex contract processes, enhance productivity, and ensure compliance with legal standards."
+              demoLink="https://agreedpro.com/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ecommerce}
