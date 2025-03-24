@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
@@ -63,4 +64,71 @@ const Resume = () => {
   )
 }
 
+=======
+import React, { useState, useEffect } from "react";
+import { Container, Row } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import { AiOutlineDownload } from "react-icons/ai";
+
+import Particle from '../components/Particle'
+import pdf from "../assets/Tamilselvan Rangasamy.pdf"
+
+import { Document, Page, pdfjs } from "react-pdf";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import "react-pdf/dist/esm/Page/TextLayer.css";
+pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
+const resumeLink = pdf
+
+
+const Resume = () => {
+  const [width, setWidth] = useState(1200);
+
+  useEffect(() => {
+
+    setWidth(window.innerWidth);
+  }, []);
+
+  return (
+    <div>
+      <Container fluid className="resume-section">
+        <Particle />
+        <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Button
+            variant="primary"
+            href={pdf}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            <AiOutlineDownload />
+            &nbsp;Download Resume
+          </Button>
+        </Row>
+
+        <Row className="resume">
+            <Document file={resumeLink} className="d-flex justify-content-evenly ">
+              <Page pageNumber={1} scale={width > 786 ? 1.3 : 0.6} />
+            </Document>
+            <Document file={resumeLink} className="d-flex justify-content-evenly ">
+              <Page pageNumber={2} scale={width > 786 ? 1.3: 0.6} />
+            </Document>
+        </Row>
+
+        <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Button
+            variant="primary"
+            href={pdf}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            <AiOutlineDownload />
+            &nbsp;Download Resume
+          </Button>
+        </Row>
+      </Container>
+    </div>
+  )
+}
+
+>>>>>>> ee239e5ab2e4926d984648b0082eaf34d6254363
 export default Resume
