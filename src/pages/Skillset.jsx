@@ -5,6 +5,7 @@ import Particle from '../components/Particle'
 import Techstack from "../components/Skillset/Techstack";
 import Toolstack from "../components/Skillset/Toolstack";
 import Github from "../components/Skillset/Github";
+import Language from "../components/Skillset/Language";
 
 const Skillset = () => {
   return (
@@ -21,6 +22,10 @@ const Skillset = () => {
         </h1>
         <Toolstack />
 
+        <h1 className="project-heading">
+          <strong className="yellow">Languages</strong> 
+        </h1>
+        <Language/>
         <Github />
       </Container>
     </Container>
