@@ -12,7 +12,6 @@ const Language = () => {
             <Col xs={4} md={2} className="lan-icons">
                 <h4>Japanese</h4>
             </Col>
-
         </Row>
     );
 }
