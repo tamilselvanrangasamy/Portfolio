@@ -19,6 +19,7 @@ Check out the live portfolio here: [tamilselvanrangasamy](https://tamilselvanran
 - **React**: JavaScript library for building user interfaces.
 - **React Router**: For navigating between different pages.
 - **CSS**: For styling the portfolio layout and design.
+- **Vercel**: Used for hosting the portfolio (free hosting platform).
 - **Netlify**: Used for hosting the portfolio (free hosting platform).
 
 ## Getting Started
