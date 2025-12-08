@@ -1,4 +1,4 @@
-# TamilSelvan Rangasamy's Portfolio
+# Tamilselvan Rangasamy's Portfolio
 
 Welcome to the personal portfolio of **Tamilselvan Rangasamy**, a passionate web developer. This portfolio showcases web development projects, skills, and experiences. The website is built using React.
 
