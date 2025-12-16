@@ -7,6 +7,7 @@ import music from "../assets/projects/Music.png";
 import hosting from "../assets/projects/Hosting.png";
 import ecommerce from "../assets/projects/ecommerce.png";
 import agreed from "../assets/projects/agreedpro.png";
+import nexgen from "../assets/projects/nexgen.png"
 const Projects = () => {
   return (
     <Container fluid className="project-section">
@@ -19,7 +20,7 @@ const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={agreed}
               isBlog={false}
@@ -27,6 +28,16 @@ const Projects = () => {
               description="AgreedPro is an AI-powered contract management platform designed to streamline the creation, negotiation, and management of contracts for small and medium-sized businesses. It offers features such as AI-assisted document generation, efficient redlining, electronic signatures, automated reminders, quick search capabilities, centralized storage, and robust data security. The platform aims to simplify complex contract processes, enhance productivity, and ensure compliance with legal standards."
               ghLink="https://github.com/tamilselvanrangasamy/"
               demoLink="https://agreedpro.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nexgen}
+              isBlog={false}
+              title="Dr Nexgen"
+              description="DR NEXGEN Pvt Ltd is a service-based tech startup committed to delivering cutting-edge solutions in Artificial Intelligence, Machine Learning, Web & Mobile Development, IoT, Embedded Systems, Cybersecurity, and Blockchain.Our mission is to bridge the gap between ideas and technology by building scalable, secure, and intelligent digital solutions that help businesses thrive in today’s fast-paced world. "
+              ghLink="https://github.com/tamilselvanrangasamy/"
+              demoLink="https://www.drnexgen.com/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -79,3 +90,4 @@ const Projects = () => {
 }
 
 export default Projects
+

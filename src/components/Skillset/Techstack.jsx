@@ -16,6 +16,9 @@ import {
   SiJest,
   SiTailwindcss,
   SiNextdotjs,
+  SiExpress,
+  SiFastapi,
+  SiThunderbird,
 } from "react-icons/si";
 
 const Techstack = () => {
@@ -67,6 +70,14 @@ const Techstack = () => {
           <h4>Node JS</h4>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
+          <SiExpress />
+          <h4>Express JS</h4>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiFastapi />
+          <h4>Fast API</h4>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
           <SiMongodb />
           <h4>MongoDB</h4>
         </Col>
@@ -80,3 +91,4 @@ const Techstack = () => {
 }
 
 export default Techstack;
+
