@@ -18,7 +18,6 @@ import {
   SiNextdotjs,
   SiExpress,
   SiFastapi,
-  SiThunderbird,
 } from "react-icons/si";
 
 const Techstack = () => {
