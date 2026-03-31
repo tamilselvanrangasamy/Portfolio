@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 
 import Particle from '../components/Particle'
-import pdf from "../assets/Tamilselvan_R_Frontend_Fullstack_CV.pdf"
+import pdf from "../assets/Tamilselvan_R_Frontend_CV.pdf"
 
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -43,11 +43,7 @@ const Resume = () => {
             <Page pageNumber={1} scale={width > 786 ? 1.3 : 0.6} />
           </Document>
         </Row>
-        <Row className="resume">
-          <Document file={resumeLink} className="d-flex justify-content-evenly ">
-            <Page pageNumber={2} scale={width > 786 ? 1.3 : 0.6} />
-          </Document>
-        </Row>
+       
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
