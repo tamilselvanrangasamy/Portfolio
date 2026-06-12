@@ -71,18 +71,12 @@ const Techstack = () => {
           <SiExpress />
           <h4>Express JS</h4>
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <SiFastapi />
-          <h4>Fast API</h4>
-        </Col>
+
         <Col xs={4} md={2} className="tech-icons">
           <SiMongodb />
           <h4>MongoDB</h4>
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <SiJest />
-          <h4>Jest</h4>
-        </Col>
+
       </Row>
     </>
   );
