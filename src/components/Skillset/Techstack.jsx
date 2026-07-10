@@ -12,11 +12,9 @@ import {
   SiRedux,
   SiMongodb,
   SiTypescript,
-  SiJest,
   SiTailwindcss,
   SiNextdotjs,
   SiExpress,
-  SiFastapi,
 } from "react-icons/si";
 
 const Techstack = () => {
