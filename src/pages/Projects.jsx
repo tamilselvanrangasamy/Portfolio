@@ -37,7 +37,7 @@ const Projects = () => {
               title="Dr Nexgen"
               description="DR NEXGEN Pvt Ltd is a service-based tech startup committed to delivering cutting-edge solutions in Artificial Intelligence, Machine Learning, Web & Mobile Development, IoT, Embedded Systems, Cybersecurity, and Blockchain.Our mission is to bridge the gap between ideas and technology by building scalable, secure, and intelligent digital solutions that help businesses thrive in today’s fast-paced world. "
               ghLink="https://github.com/tamilselvanrangasamy/"
-              demoLink="https://www.drnexgen.com/"
+              demoLink="https://www.codeselfinfotech.com/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -86,7 +86,7 @@ const Projects = () => {
         </Row>
       </Container>
     </Container>
-  )
+  );
 }
 
 export default Projects
